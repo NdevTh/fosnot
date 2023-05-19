@@ -1,0 +1,355 @@
+/* ----------->la partie Menu nav <-------*/
+.menuNav{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+/* ---------->partie image<----------  */
+.imgMana{
+    width: 9vw;
+    height: 18vh;
+    padding-top: 2vh;
+    }
+.menu {
+    /* text-decoration: none; */
+    position: fixed;
+    background-color: rgb(3, 3, 3);
+    color: rgb(252, 250, 250);
+    padding-top: 2vh;
+    padding-left: 4vw;
+    width: 100vw;
+    height: 8vh;
+    /* center verticalement */
+    /* vertical-align: middle;  */
+    padding-bottom: 1vh;
+    display: flex;
+    border-bottom: 1px solid;
+  }
+.logo {
+    width: 5vw;
+    height: 4vh;
+    padding-right: 2vh;
+    }
+.aImg{
+    width: 50vw;
+    }
+.pMenu {
+    padding-right: 1vw;
+    text-decoration: none;
+    color: azure;
+    font-size: 3vh;
+    }
+
+/* ------->La partie body <------*/
+.error{
+    z-index: 7;
+    color: white;
+}
+h2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 4vw;
+    /* border: 1px solid white; */
+    }
+.corps{
+    padding-top: 12vh;
+    margin-bottom: 18vh;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    /* border: 1px red solid; */
+    }
+.contentT{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.973);
+    padding-top: 5vh;  
+    }
+.para1{
+        display: flex;
+        width: 42vw;
+        height: 50vh;
+        /* border: 1px solid white; */
+        padding-left: 4vw;
+        padding-right: 4vw;
+        }
+.para2{
+        /* display: flex; */
+        width: 42vw;
+        height: 50vh;
+        /* border: 1px solid white; */
+        padding-left: 4vw;
+        padding-right: 4vw;
+        }
+.aPara{
+    font-size:1vw
+}
+/* ------début--->Partie Equipe<-------- */
+.contentT2{
+    display: flex;
+    width: 100%;
+    color: rgb(252, 252, 252);
+    /* padding-top: 12vh;   */
+    }
+
+ .direction1{
+    text-align: center;
+    /* border: 1px solid white; */
+    display: flex;
+    width: 42vw;
+    height: 20vh;
+    justify-content: space-around;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.direction2{
+    /* border: 1px solid white; */
+    display: flex;
+    width: 42vw;
+    height: 20vh;
+    justify-content: space-around;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    }
+.legende{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    /* border: 1px solid white; */
+    height: 3vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 50vw;
+    }
+.legende.Prof{
+    padding-bottom: 3vh;
+    height: 3vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 50vw;
+    }
+ /* -------fin---->encadrement équipe<---------- */
+/* --------Début---->style cours<----------- */
+.contentT.Cours{
+    display: grid;
+    /* border: 3px solid; */
+    /* border-color: rgb(219, 235, 8); */
+    }
+.titreCours{
+    /* border: 1px solid;  */
+    font-size: 2.5vh;
+    }
+.cours{
+    display: flex;
+}
+/* .cours1{
+border: 2px rgb(11, 250, 2) dotted ;  
+}
+.cours2{
+border: 2px rgb(2, 27, 250) dotted ;   
+} */
+.aImg.Cours{
+    width: 31vw;
+    height: 21.21vh;
+    }
+.vali{
+    width: 30vw;
+    height: 2vh;
+    color: red;
+    align-items: flex-start;
+    border-radius: 15px;
+    background-color: white;
+}
+.modal{
+    border-radius: 10px;
+
+}
+#id01{
+    width: 40vw;
+    border-radius: 10px;
+}
+.formul{
+    padding: 3vh;
+    background-color: rgb(68, 66, 66);
+    
+}
+
+.para1.Cours{
+    display: flex;
+    width: 36.8vw;
+    height: 40vh;
+    /* border: 1px red solid; */
+    }
+.para1C.Cours{
+    width: 40vw;
+    font-size: small;
+    padding-left: 2vw;
+    /* border: 1px blueviolet solid; */
+    }
+/* --------Fin---->style cours<----------- */
+
+/* ----------début--->Style événement <------------ */
+.even{
+display: flex;
+width: 70vh;
+}
+.para1C.Cours.Even{
+    width: 16vw;
+    height: 20vh;
+    font-size: small;
+    padding-left: 1vw;
+    /* border: 1px blueviolet solid; */
+    }
+.para1.Cours.Even{
+        display: grid;
+        width: 34.6vw;
+        height: 45vh;
+        border: 0.5vh rgb(182, 178, 178) solid;
+        border-radius: 10px;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        padding-left: 0.5vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+.even{
+    display: flex;
+    /* border: 2px green dotted; */
+    height: 20vh;
+    width: 38vw;
+    padding-bottom: 2vh ;
+}
+.even1{
+    display: grid;
+    /* border: 2px green dotted; */
+    height: 20vh;
+    width: 38vw;
+}
+.aImg.Cours.Even{
+        width: 21.5vw;
+        height: 20vh;
+        }
+/* ----------fin--->Style événement <------------ */
+/* ----------debut --->Style contact <------------ */
+.cours1.Even.Contact{
+    display: grid
+}
+.even.Contact{
+    font-size: 2vh;
+    padding-top: 3vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.para1.Cours.Even.Map{
+    border: none;
+    text-align: center ;
+    font-size: 3vh;
+   }
+.map{
+    width: 38.5vw;
+    height: 20vw;
+    border-radius: 15px;
+}
+.para1.Cours.Even.Contact{
+    display: flex;
+    text-align: center;
+    width: 34.6vw;
+    height: 20vh;
+    border: 0.3vh rgb(182, 178, 178) solid;
+    border-radius: 10px;
+    }
+.para1.Cours.Even.Contact1{
+    text-align: center;
+    /* align-items: center; */
+    width: 34.6vw;
+    height: 70vh; 
+    border-radius: 30px;
+ 
+}
+.para1C.Cours.Even.Contact1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 16vw;
+    height: 10vh;  
+}
+.para1C.Cours.Even.Contact{
+    text-align: center;
+    align-items: center;
+    width: 16vw;
+    height: 10vh;  
+}
+.send{
+    width: 25vw;
+    display: grid;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.send1{
+    display: grid;
+    width: 25vw;
+    height: 15vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.valide{
+    border-radius: 10px;
+    width: 8vw;
+}
+/* ----------fin --->Style contact <------------ */
+
+/* -----la partie footer --------*/
+.foot{   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    border-top: 1px solid;
+    justify-content: space-around;
+    padding-right: 4vw;
+    align-items: center;
+    background-size: cover ;
+    background-color: black;
+    text-decoration: none;
+    position: fixed;
+    height: 15vh;
+    width: 100vw;
+    bottom: 0;
+    color:  white;
+    }
+.fText.info{
+    font-size: 1vw;
+    }
+.fText{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    text-align: center;
+    height: 2vh;
+    width: 100%;
+    }
+.Flogo{
+    width:8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.social{
+    height:4vh;
+    padding-right: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    /*-------------- la partie body ------------*/
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    background-image: url("../image/fontAccueil.png") ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+   }
+.login{
+    color: white;
+}
